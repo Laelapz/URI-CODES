@@ -1,0 +1,34 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main(){
+	int P, M, N, i, j, cont, vez1, vez2;
+	vector< vector<int> > vec;
+	cin>>P>>M>>N;
+	int valores[N];
+	string nipes[N];
+	cont=0;
+	
+	for(i=0;i<N;i++){
+		cin>>valores[i]>>nipes[i];
+	}
+	
+	vez1=valores[P*M];
+	vez2=nipes[P*M];
+	
+	for(i = 0; i < P; i++) {
+        vec.push_back(vector<int>());
+    }
+    for(j=0;j<P;j++){
+    	for (i = 0; i < M; i++) {
+   	    	vec[j][i]=valores[cont];
+   	    	cont++;
+		}	
+	}
+	
+	find(vec[j][i];)
+	
+}
