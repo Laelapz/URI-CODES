@@ -1,2 +1,2 @@
-# OBI-CODES
-My solution to OBI problems.
+# URI-CODES
+My solution to URI problems.
